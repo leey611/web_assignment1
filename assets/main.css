@@ -26,6 +26,39 @@ p{
 	/*margin-left: 10px;*/
 }
 
+/*.rectRow {
+	position: absolute;
+	height: 20vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: red solid 2px;
+}*/
+
+.rect {
+	position: absolute;
+	width: 20vw;
+	height: 1vw;
+	top: 50%;
+	left: 50%;
+	background-color: #000000;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+#rect1 {
+	top: 40%;
+}
+
+#rect2 {
+	
+}
+
+#rect3 {
+	top: 60%;
+}
+
+
 @media(max-width: 800px){ 
 	
 	html{
